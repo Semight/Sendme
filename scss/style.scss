@@ -79,5 +79,72 @@ body {
         display: flex;
         justify-content: center;
         text-align: center;
+        background-color: #F7FAFC;
+        padding-top: 7rem;
+
+        .by-product {
+            width: 30%;
+
+            img {
+                padding: 50px;
+                background: #E2E8F0;
+                border-radius: 500px;
+                margin-bottom: 20px;
+            }
+
+            h2 {
+                padding-bottom: 2.5rem;
+            }
+
+            p {
+                font-size: 18px;
+                text-align: center;
+                margin: 14px;
+            }
+        }
     }
+
+
+    .order-img {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background-color: #F7FAFC;
+        padding-top: 4rem;
+
+        .product-img {
+            width: 20.3%;
+
+            img {
+                padding: 50px;
+                background: #E2E8F0;
+                border-radius: 500px;
+                margin-bottom: 20px;
+                cursor: pointer;
+            }
+
+            p {
+                font-size: 18px;
+                text-align: center;
+                cursor: pointer;
+            }
+        }
+    }
+
+
+    .shop-now {
+        text-align: center;
+        background-color: #F7FAFC;
+        padding-top: 7rem;
+
+        p {
+            color: rgb(237, 58, 58);
+            font-size: 18px;
+            font-weight: 500;
+            cursor: pointer;
+            padding-top: 10px;
+        }
+
+    }
+
 }

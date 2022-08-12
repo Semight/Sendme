@@ -78,4 +78,57 @@ body .order-service {
   display: flex;
   justify-content: center;
   text-align: center;
+  background-color: #F7FAFC;
+  padding-top: 7rem;
+}
+body .order-service .by-product {
+  width: 30%;
+}
+body .order-service .by-product img {
+  padding: 50px;
+  background: #E2E8F0;
+  border-radius: 500px;
+  margin-bottom: 20px;
+}
+body .order-service .by-product h2 {
+  padding-bottom: 2.5rem;
+}
+body .order-service .by-product p {
+  font-size: 18px;
+  text-align: center;
+  margin: 14px;
+}
+body .order-img {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #F7FAFC;
+  padding-top: 4rem;
+}
+body .order-img .product-img {
+  width: 20.3%;
+}
+body .order-img .product-img img {
+  padding: 50px;
+  background: #E2E8F0;
+  border-radius: 500px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+body .order-img .product-img p {
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+}
+body .shop-now {
+  text-align: center;
+  background-color: #F7FAFC;
+  padding-top: 7rem;
+}
+body .shop-now p {
+  color: rgb(237, 58, 58);
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  padding-top: 10px;
 }/*# sourceMappingURL=style.css.map */
