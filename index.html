@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="./dist/css/style.css">
     <title>Sendme</title>
 </head>
 <body>
@@ -12,15 +12,16 @@
         <div class="container">
             <div class="navbar">
                 <a class="logo" href="#">
-                    <img src="/images/logo_white.svg" alt="logo picture">
+                    <img src="./images/logo_white.svg" alt="logo picture">
                 </a>
             </div>
         <div class="text">Fresh meat delivered to your doorstep at the cheapest prices</div>
         <div class="search-input">
-            <input value="" placeholder="Hi, what do you need?" class="">
-            <button type="button" class="search-button" aria-label="Send order to WhatsApp">
-                <img alt="" class="search-image" aria-hidden="true" focusable="false" src="/images/whatsapp_black.svg">
-            </button>
+            <input value="value" placeholder="Hi, what would you like to order today?" class="">
+            <button class="order-image">Order Now</button>
+            <!-- <button type="button" class="search-button" aria-label="Send order to WhatsApp">
+                <img alt="" class="search-image" aria-hidden="true" focusable="false" src="./images/whatsapp_white.svg">
+            </button> -->
         </div>
     </div>
 
@@ -30,17 +31,17 @@
         <div class="order-service">
             
             <div class="by-product">
-                <img src="/images/meat.svg" alt="meat">
+                <img src="./images/meat.svg" alt="meat">
                 <h2>ANY MEAT PRODUCT</h2>
                 <p>Cow meat, goat meat, chicken, whatever your needs are, we got you covered.</p>
             </div>
             <div class="by-product">
-                <img src="/images/bike.svg" alt="bike">
+                <img src="./images/bike.svg" alt="bike">
                 <h2>DELIVERED FAST</h2>
                 <p>There’s a Sendme micro-fulfillment center near you. Get your meat delivered to your doorstep from the closest one to you in less than 2hrs.</p>
             </div>
             <div class="by-product">
-                <img src="/images/save_money.svg" alt="">
+                <img src="./images/save_money.svg" alt="save money">
                 <h2>CHEAP DELIVERY FEE</h2>
                 <p>We deliver to you ANYWHERE in Ibadan for as low as N200.</p>
             </div>
@@ -56,23 +57,23 @@
 
     <div class="order-img">
     <div class="product-img">
-        <img src="/images/goat.svg" alt="">
+        <img src="./images/goat.svg" alt="goat image">
         <p>Goat</p>
     </div>
     <div class="product-img">
-        <img src="/images/cow.svg" alt="">
+        <img src="./images/cow.svg" alt="cow image">
         <p>Cow</p>
     </div>
     <div class="product-img">
-        <img src="/images/fish.svg" alt="">
+        <img src="./images/fish.svg" alt="fish image">
         <p>Fish</p>
     </div>
     <div class="product-img">
-        <img src="/images/chicken.svg" alt="">
+        <img src="./images/chicken.svg" alt="chicken image">
         <p>Chicken</p>
     </div>
     <div class="half-brush">
-        <img src="/images/half_brush_pattern.svg" alt="">
+        <img src="./images/half_brush_pattern.svg" alt="half_brush_pattern image">
     </div>
 </div>
 </section>
@@ -80,7 +81,7 @@
 <section>
     <div class="customer">
         <div class="quote-mark">
-           <img src="/images/quote_mark.svg" alt=""> 
+           <img src="./images/quote_mark.svg" alt="quote_mark image"> 
         </div>
         <h1>Comments from our customers</h1>
     </div>
@@ -88,31 +89,92 @@
         <div class="testimony">
                 <div class="border1">RG</div>
             <div class="quote-image">
-                <img src="/images/quote_mark.svg" alt="">
+                <img src="./images/quote_mark.svg" alt="quote_mark image">
                 <p>I ordered yesterday and delivered today. Kudos to you guys, I really loved the service. I thought it was a scam.</p>
             </div>
-            <p>Remo Glory</p>
+            <p class="customer-name">Remo Glory</p>
         </div>
 
         <div class="testimony">
                 <div class="border2">KT</div>
-            <div>
-                <img src="/images/quote_mark.svg" alt="">
+            <div class="quote-image">
+                <img src="./images/quote_mark.svg" alt="quote_mark image">
                 <p>I really give them kudos. Got to hear about them today, made an order and truth bee told, it's top notch. I can say now I have a reliable meat plug in Ibadan</p>
             </div>
-            <p>Kemi Tosin</p>
+            <p class="customer-name">Kemi Tosin</p>
         </div>
 
         <div class="testimony">
                 <div class="border3">UA</div>
-            <div>
-                <img src="/images/quote_mark.svg" alt="">
+            <div class="quote-image">
+                <img src="./images/quote_mark.svg" alt="quote_mark image">
                 <p>Good and excellent customer service. The meat was really worth it. Thanks</p>
             </div>
-            <p>Ummu Abdul Hameed</p>
+            <p class="customer-name">Ummu Abdul Hameed</p>
         </div>
 
     </div>
 </section>
+
+<section>
+    <div class="sendme">
+        <p>Sendme for businesses</p>
+        <div class="supplies">
+            <div class="b-supply">
+                <p class="supply">Supplies for your business,<br>in large quantities</p>
+                <button>Place an order</button>
+            </div>
+            <div class="supply-image">
+                <img class="image1" src="./images/brush_pattern.svg" alt="brush pattern">
+                <img class="image2" src="./images/manager.png" alt="manager.png">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="sendme-work">
+            <h1 class="title">Work with Sendme</h1>
+        <div class="d-flex">
+            <img src="./images/rider.png" alt="rider.png">
+            <div class="text">
+            <h1 class="left">Find work that suits you</h1>
+            <p class="b-left">Find a role that fits your goals on our growing team</p>
+            <button>GET STARTED</button>
+        </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="containers">
+        <img class="footer-logo" src="./images/logo_white.svg" alt="send-me logo">
+        <div class="about">
+        <p>Copyright © 2020 Sendme.ng</p>
+        <p>All rights reserved</p>
+    </div>
+        <div class="socials">
+            <div class="social-logo">
+            <a href="">
+                <img src="./images/whatsapp_white.svg" alt="whatsapp logo">
+                <p>WhatsApp</p>
+            </a>
+        </div>
+        <div class="social-logo">
+            <a href="">
+                <img src="./images/facebook_white.svg" alt="facebook logo">
+                <p>Facebook</p>
+            </a>
+        </div>
+        <div class="social-logo">
+            <a href="">
+                <img src="./images/instagram_white.svg" alt="instagram logo">
+                <p>Instagram</p>
+            </a>
+        </div>
+        </div>
+    
+    </div>
+</footer>
 </body>
 </html>
