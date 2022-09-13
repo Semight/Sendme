@@ -12,7 +12,7 @@ body {
   line-height: var(--chakra-lineHeights-base);
 }
 body .container {
-  background-image: url("./images/banner.png");
+  background-image: url("/images/banner.png");
   padding: 2rem;
   padding-bottom: 5rem;
 }
