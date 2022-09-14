@@ -2,6 +2,11 @@
     padding: 0;
     margin: 0;
 }
+html {
+    --chakra-fonts-body: sans-serif;
+    --chakra-colors-gray-800: #999;
+    --sendme-white: #fff;
+}
 
 body {
     font-family: var(--chakra-fonts-body);
@@ -13,7 +18,6 @@ body {
 
 
     .container {
-        background-image: url('/images/banner.png');
         padding: 2rem;
         padding-bottom: 5rem;
 
